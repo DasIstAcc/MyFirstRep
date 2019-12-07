@@ -1,0 +1,26 @@
+C:\Users\Тагир>mypy type_check.py
+type_check.py:5: error: Name 'Привет' is not defined
+type_check.py:5: error: Name 'Пока' is not defined
+Found 2 errors in 1 file (checked 1 source file)
+
+C:\Users\Тагир>pylint type_check.py
+************* Module type_check
+type_check.py:9:0: C0301: Line too long (118/100) (line-too-long)
+type_check.py:16:0: C0301: Line too long (115/100) (line-too-long)
+type_check.py:32:0: C0304: Final newline missing (missing-final-newline)
+type_check.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+type_check.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+type_check.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+type_check.py:18:0: C0103: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+type_check.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+type_check.py:18:15: W0621: Redefining name 'd' from outer scope (line 21) (redefined-outer-name)
+type_check.py:26:0: C0103: Class name "t" doesn't conform to PascalCase naming style (invalid-name)
+type_check.py:28:0: C0103: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+type_check.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+type_check.py:28:15: W0621: Redefining name 'd' from outer scope (line 21) (redefined-outer-name)
+
+-----------------------------------
+Your code has been rated at 1.88/10
+
+
+C:\Users\Тагир>
